@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { onMounted, reactive, ref, watch } from 'vue'
+    import { onMounted, reactive, ref, watch, defineEmits, defineProps } from 'vue'
     import { SupplierService } from '../../../services/SupplierService'
     import { ProductService } from '../../../services/ProductService'
     import { useRouter } from 'vue-router'
