@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { reactive, defineEmits } from 'vue'
+    import { reactive } from 'vue'
     import { useRouter } from 'vue-router'
     import GTInput from '../../../components/Input/GTInput.vue'
     import GTButton from '../../../components/Button/GTButton.vue'
