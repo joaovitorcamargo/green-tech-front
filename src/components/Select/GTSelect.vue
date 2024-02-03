@@ -3,7 +3,7 @@
 
     const props = defineProps<{
         modelValue: string
-        options: string[]
+        options: any[]
     }>()
 
     const emit = defineEmits<{
